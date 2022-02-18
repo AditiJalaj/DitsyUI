@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ditsy UI</title>
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
+  <body>
+    <navbar class="topnav">
+      <a class="link" href="/"
+        ><img class="header-image" src="../../assets/logo.png"
+      /></a>
+      <div class="topnav-options">
+        <span>Docs</span><span>Examples</span><span>Releases</span>
+      </div>
+    </navbar>
+
+    <div class="sidebar-and-main-container">
+      <div class="sidebar">
+        <h3 class="sidebar-heading">GETTING STARTED</h3>
+        <ul>
+          <a href="../introduction/introduction.html"
+            ><li class="list-item">Introduction</li></a
+          >
+          <a href="../colors/colors.html"><li class="list-item">Colors</li></a>
+          <a href="../typography/typography.html"
+            ><li class="list-item">Typography</li></a
+          >
+          <a href="../open_source/open_source.html"
+            ><li class="list-item">Open Source</li></a
+          >
+        </ul>
+        <h3 class="sidebar-heading">COMPONENTS</h3>
+        <ul>
+          <a href="/"><li class="list-item">Avatar</li></a>
+          <a href="/"><li class="list-item">Alert</li></a>
+          <a href="/"><li class="list-item">Badge</li></a>
+          <a href="/"><li class="list-item">Button</li></a>
+          <a href="/"><li class="list-item">Card</li></a>
+          <a href="/"><li class="list-item">Image</li></a>
+          <a href="/"><li class="list-item">Input</li></a>
+          <a href="/"><li class="list-item">List</li></a>
+          <a href="/"><li class="list-item">Toast</li></a>
+          <a href="/"><li class="list-item">Rating</li></a>
+        </ul>
+      </div>
+
+      <main class="main-container">
+        <h1 class="main-heading">Typography</h1>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Font Family</h2>
+          <summary>Controlling the font-family of an element.</summary>
+          <table class="highlighted-container">
+            <tr class="text-align-left">
+              <th>Class</th>
+              <th>Properties</th>
+            </tr>
+            <tr>
+              <td>font-sans</td>
+              <td class="highlighted-text">
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica
+                Neue", sans-serif;
+              </td>
+            </tr>
+            <tr>
+              <td>font-mono</td>
+              <td class="highlighted-text">
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
+                Consolas, "Liberation Mono", "Courier New", monospace;
+              </td>
+            </tr>
+            <tr>
+              <td>font-roman</td>
+              <td class="highlighted-text">'Times New Roman', Times, serif;</td>
+            </tr>
+          </table>
+        </section>
+        <div class="divider"></div>
+        <section>
+          <h2>Usage Font Family</h2>
+          <div class="highlighted-container">
+            <article class="font-sans flex jc-space-between">
+              <span class="highlighted-text">font-sans</span>Lorem ipsum dolor
+              sit amet
+            </article>
+            <article class="font-mono flex jc-space-between">
+              <span class="highlighted-text">font-mono</span> Lorem ipsum dolor
+              sit amet
+            </article>
+            <article class="font-roman flex jc-space-between">
+              <span class="highlighted-text">font-roman</span>Lorem ipsum dolor
+              sit amet
+            </article>
+          </div>
+          <img
+            class="h-12 w-100 br-l"
+            src="../../assets/code examples//typography.png"
+          />
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Headings</h2>
+          <div class="highlighted-container">
+            <p class="h1">Heading 1</p>
+            <p class="h2">Heading 2</p>
+            <p class="h3">Heading 3</p>
+            <p class="h4">Heading 4</p>
+            <p class="h5">Heading 5</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
