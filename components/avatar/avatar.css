@@ -1,0 +1,18 @@
+.avatar {
+  height: 6rem;
+}
+.circular-avatar {
+  border-radius: 10rem;
+}
+.rounded-avatar {
+  border-radius: 1rem;
+}
+.sm {
+  height: 3rem;
+}
+.md {
+  height: 5rem;
+}
+.lg {
+  height: 7rem;
+}
