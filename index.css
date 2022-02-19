@@ -77,10 +77,15 @@
   font-size: 0.8rem;
 }
 
-/* FLEX CLASSES */
+/* DISPLAYS */
 .flex {
   display: flex;
 }
+.block {
+  display: block;
+}
+
+/* FLEX */
 .flex-row {
   flex-direction: row;
 }
@@ -107,11 +112,11 @@
 }
 
 /* HEIGHTS,WIDTHS,MARGINS AND PADDINGS */
-.h-12 {
-  height: 12rem;
+.h-8 {
+  height: 8rem;
 }
-.w-100 {
-  width: 100%;
+.w-55 {
+  min-width: 55%;
 }
 
 .br-s {
@@ -125,6 +130,20 @@
 }
 .br-full {
   border-radius: 100rem;
+}
+
+/* MARGINS */
+.mr-auto {
+  margin-right: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mt-s {
+  margin-top: 1rem;
+}
+.mb-s {
+  margin-bottom: 1rem;
 }
 
 /* import all css component files in here */
