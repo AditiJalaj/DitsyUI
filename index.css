@@ -1,6 +1,7 @@
 @import url(./css/constants.css);
 @import url(./components/alert/alert.css);
 @import url(./components/avatar/avatar.css);
+@import url(./components/badge/badge.css);
 
 .highlighted-text {
   color: var(--secondary);
@@ -58,6 +59,17 @@
   font-size: 0.8rem;
 }
 
+/* POSITIONS */
+.relative {
+  position: relative;
+}
+.absolute {
+  position: relative;
+}
+
+.bottom-s {
+  bottom: 0.4rem;
+}
 /* DISPLAYS */
 .flex {
   display: flex;
