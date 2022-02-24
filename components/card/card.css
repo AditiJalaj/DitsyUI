@@ -1,0 +1,21 @@
+.card {
+  height: 32rem;
+  width: 18rem;
+  background-color: var(--white);
+  margin: 1rem;
+}
+.card-image {
+  height: 25rem;
+  width: 18rem;
+}
+.card-badge {
+  background: var(--primary);
+  position: relative;
+  bottom: 75%;
+  opacity: 0.8;
+  display: inline;
+  padding: 0.6rem;
+  font-weight: 600;
+  border-right-style: groove;
+  border-bottom-right-radius: 0.8rem;
+}
