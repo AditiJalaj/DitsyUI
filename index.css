@@ -12,7 +12,9 @@
   background-color: var(--primary);
   opacity: 0.7;
 }
-
+.op-5 {
+  opacity: 0.5;
+}
 /* FONT STYLES*/
 .strike-text {
   text-decoration: line-through;
@@ -94,11 +96,23 @@
   position: relative;
 }
 .absolute {
-  position: relative;
+  position: absolute;
 }
 
+.right-xxs {
+  right: 0.1rem;
+}
 .bottom-s {
   bottom: 0.4rem;
+}
+.bottom-m {
+  bottom: 1rem;
+}
+.bottom-l {
+  bottom: 2rem;
+}
+.bottom-xl {
+  bottom: 3rem;
 }
 /* DISPLAYS */
 .flex {
