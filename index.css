@@ -3,6 +3,7 @@
 @import url(./components/avatar/avatar.css);
 @import url(./components/badge/badge.css);
 @import url(./components/card/card.css);
+@import url(./components/button/button.css);
 .highlighted-text {
   color: var(--secondary);
 }
@@ -11,6 +12,14 @@
   padding: 0.5rem;
   background-color: var(--primary);
   opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .op-5 {
   opacity: 0.5;
@@ -162,6 +171,9 @@
 .al-stretch {
   align-items: stretch;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 /* HEIGHTS,WIDTHS,MARGINS AND PADDINGS */
 .h-8 {
   height: 8rem;
@@ -171,6 +183,9 @@
 }
 .w-40 {
   min-width: 40rem;
+}
+.w-80 {
+  width: 80%;
 }
 
 .br-s {
@@ -248,6 +263,7 @@ a {
 .divider {
   width: 70vw;
   border-bottom: 0.1rem solid var(--secondary);
+  margin: 1rem 0rem;
 }
 
 .text-align-left {
