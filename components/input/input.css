@@ -1,0 +1,41 @@
+.input {
+  width: 20rem;
+  background: transparent;
+  padding: 1rem;
+  border: 0.1rem solid var(--secondary-text);
+  border-radius: 0.1rem;
+  color: var(--white);
+  margin: 1rem;
+  outline-width: 0;
+}
+.input:hover {
+  border-color: var(--info);
+}
+.input-filled {
+  background: var(--background-secondary);
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-text);
+}
+.input-standard {
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-text);
+}
+.input-disabled {
+  border: none;
+  border-bottom: 0.1rem dotted var(--secondary-text);
+}
+.input-disabled:hover {
+  border-color: var(--secondary-text);
+}
+.error-input {
+  border-color: var(--error);
+}
+.error-input:hover {
+  border-color: var(--error);
+}
+.success-input {
+  border-color: var(--success);
+}
+.success-input:hover {
+  border-color: var(--success);
+}
