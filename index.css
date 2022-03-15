@@ -5,6 +5,9 @@
 @import url(./components/card/card.css);
 @import url(./components/button/button.css);
 @import url(./components/input/input.css);
+@import url(./components/image/image.css);
+@import url(./components/list/list.css);
+
 .highlighted-text {
   color: var(--secondary);
 }
@@ -180,6 +183,14 @@
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+/* OVERFLOW */
+.vertical-scroll{
+  overflow-x: scroll;
+}
+.horizontal-scroll{
+  overflow-y: scroll;
 }
 /* HEIGHTS,WIDTHS,MARGINS AND PADDINGS */
 .h-8 {
