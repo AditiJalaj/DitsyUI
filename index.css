@@ -15,6 +15,12 @@
   opacity: 0.7;
 }
 
+.vertical-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 .container {
   display: flex;
   justify-content: flex-start;
