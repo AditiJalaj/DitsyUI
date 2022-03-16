@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     padding:0 1rem;
-    box-shadow: 0.4rem 1.2rem 0 rgb(0 0 0 / 5%)
+    box-shadow:var(--navbar-box-shadow);
 }
 .navbar-logo{
     padding: 1rem;
