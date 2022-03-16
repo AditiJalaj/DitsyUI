@@ -59,43 +59,38 @@
                 <a href="../list/list.html">
                     <li class="list-item">List</li>
                 </a>
-                <a href="/">
+                <a href="../modal/modal.html">
                     <li class="list-item">Modal</li>
                 </a>
-                <a href="../navigation/navigation.html">
+                <a href="">
                     <li class="list-item">Navigation</li>
                 </a>
             </ul>
         </div>
 
         <main class="main-container">
-            <h1 class="main-heading">Modal</h1>
+            <h1 class="main-heading">Navigation</h1>
             <div class="divider"></div>
 
             <section>
-                <h2>Modal</h2>
-                <div class="modal-container">
-                    Are you sure you want to remove this product?
-                    <div class="mt-l">
-                        <button class="btn primary">Yes, remove</button>
-                        <button class="btn semi-transparent">No, I'll keep this</button>
+                <h2>Fixed Navigation Bar</h2>
+                <navbar class="navbar">
+                    <a class="link" href="/"><img class="navbar-logo" src="../../assets/logos/ditsy_logo.png" /></a>
+                    <div class="navbar-actions"><span>MEN</span><span>WOMEN</span><span>BRAND</span><span>JUST
+                            IN</span><span><strong>SALE</strong></span></div>
+                    <button class="default-btn"><img class="icon" src='../../assets/card/icons/search.png' /></button>
+                    <div class="navbar-user-options">
+                        <button class="default-btn"><img class="icon" src='../../assets/card/icons/user.png' /></button>
+                        <button class="default-btn"><img class="icon"
+                                src='../../assets/card/icons/wishlistt.png' /></button>
+                        <button class="default-btn"><img class="icon"
+                                src='../../assets/badge/notification.png' /></button>
+                        <button class="default-btn"><img class="icon"
+                                src='../../assets/badge/shopping-cart.png' /></button>
                     </div>
-                </div>
+                </navbar>
             </section>
-            <div class="divider"></div>
-            <section>
-                <h2>Solid Modal</h2>
-                <div class="modal-container-solid">
-                    Are you sure you want to remove this product?
-                    <div class="mt-l flex jc-space-evenly">
-                        <button class="default-btn"><img class="icon" src='../../assets/card/icons/tick.png'
-                                alt="yes" /></button>
-                        <button class="default-btn"><img class="icon" src='../../assets/card/icons/close.png'
-                                alt="no" /></button>
-                    </div>
-                </div>
-            </section>
-
+            <!-- user, wishlist, notification , cart -->
         </main>
     </div>
 </body>

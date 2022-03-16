@@ -1,0 +1,32 @@
+.modal-container{
+    background-image: var(--alert-secondary-warning);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.modal-container-solid{
+    background-image: var(--warning-gradient);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.default-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.icon{
+    height: 2rem;
+    padding: 0.5rem;
+}
+.icon:hover{
+    background-color: var(--transparent);
+    border-radius: 50%;
+ 
+}
