@@ -1,0 +1,122 @@
+.btn {
+  padding: 1.2rem 3rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 40px;
+  color: var(--white);
+  cursor: pointer;
+  margin: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-icon {
+  height: 1.6rem;
+  margin-right: 1rem;
+}
+.btn-icon-only {
+  height: 2.4rem;
+}
+.primary {
+  background: var(--primary-btn);
+}
+.primary:hover {
+  background: var(--primary-btn-hover);
+}
+.semi-transparent {
+  background: var(--semi-transparent);
+  border: 0.1rem solid var(--semi-transparent-border);
+}
+.semi-transparent:hover {
+  background: var(--semi-transparent-hover);
+  border: 0.1rem solid var(--semi-transparent-hover-border);
+}
+.gradient {
+  background-image: var(--gradient-btn);
+}
+.gradient:hover {
+  background-image: var(--gradient-btn-hover);
+}
+.gradient-border {
+  border: 0.2rem double transparent;
+  background-image: var(--gradient-border-btn);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.gradient-border:hover {
+  padding: 1.3rem 3.2rem;
+}
+.glow:hover {
+  box-shadow: 0rem 0rem 1.5rem 0rem var(--white);
+}
+
+.link-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--secondary-white);
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin: 1rem;
+  transition: all 0.3s ease;
+}
+.link-btn:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.text-btn {
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--secondary-white);
+  cursor: pointer;
+  margin: 1rem;
+  transition: all 0.3s ease;
+}
+.text-btn:hover {
+  color: var(--white);
+}
+
+.icon-btn {
+  background-image: var(--info-gradient);
+  padding: 1.2rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 0.2rem;
+  color: var(--primary);
+  cursor: pointer;
+  margin: 1rem;
+  transition: all 0.3s ease;
+  font-weight: bolder;
+}
+.icon-btn:hover {
+  color: var(--white);
+  background: var(--info);
+}
+.secondary-cta-btn {
+  background: transparent;
+  color: var(--primary);
+  border: 0.1rem solid var(--primary);
+}
+.secondary-cta-btn:hover {
+  background: transparent;
+  color: var(--primary);
+  border: 0.1rem solid var(--info);
+}
+
+.only-icon-btn {
+  padding: 1.3rem 1.6rem;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  margin: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--box-shadow-raised);
+}
+.only-icon-btn:hover {
+  background-image: var(--info-gradient);
+}

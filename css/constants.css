@@ -4,8 +4,11 @@
   --font-roman: 'Times New Roman', Times, serif;
   --bg-color: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(45, 29, 82, 1) 100%);
   font-size: 10px;
+  --box-shadow-raised: 0 0 8px 0 rgba(0, 0, 0, 0.25);
   --text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   --white: #fffaff;
+  --secondary-white: #e1dae1;
+  --container-bg: rgb(220, 201, 220);
   --primary: #301934;
   --secondary: #eeacd2;
   --secondary-text: #585858;
@@ -15,6 +18,16 @@
   --warning: #fea604;
   --error: #f72b48;
   --background: rgba(44, 39, 78, 1);
+  --primary-btn: #6542ff;
+  --primary-btn-hover: #785bf5;
+  --card-highlight: #2c293c;
+  --semi-transparent: rgb(101 66 255 / 15%);
+  --semi-transparent-border: rgb(101 66 255 / 25%);
+  --semi-transparent-hover: rgb(101 66 255 / 35%);
+  --semi-transparent-hover-border: rgb(101 66 255 / 50%);
+  --gradient-btn: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+  --gradient-btn-hover: linear-gradient(to right, rgb(1 156 218), rgb(182 78 167));
+  --gradient-border-btn: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
   --success-gradient: linear-gradient(90deg, rgba(8, 207, 128, 1) 0%, rgba(40, 211, 173, 1) 100%);
   --alert-secondary-success: linear-gradient(90deg, rgba(28, 91, 30, 1) 0%, rgba(44, 39, 78, 1) 37%, rgba(44, 39, 78, 1) 100%);
   --warning-gradient: linear-gradient(90deg, rgba(252, 202, 1, 1) 0%, rgba(254, 152, 9, 1) 100%);
