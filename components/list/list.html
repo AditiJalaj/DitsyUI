@@ -69,85 +69,98 @@
         </div>
 
         <main class="main-container">
-            <h1 class="main-heading">Input</h1>
+            <h1 class="main-heading">List</h1>
             <div class="divider"></div>
 
             <section>
-                <h2>Textbox</h2>
+                <h2>Basic List</h2>
                 <div class="container w-80">
-                    <input class="input" type="text" placeholder="outlined" />
-                    <input class="input input-standard" type="text" placeholder="standard" />
-                    <input class="input input-filled" type="text" placeholder="filled" />
-                    <input class="input input-disabled" type="text" disabled placeholder="disabled" />
+                    <ul class="basic-list">
+                        <li>List Item 1</li>
+                        <li>List Item 2</li>
+                        <li>List Item 3</li>
+                        <li>List Item 4</li>
+                    </ul>
                 </div>
             </section>
             <div class="divider"></div>
 
             <section>
-                <h2>Validation</h2>
+                <h2>Stacked Lists</h2>
                 <div class="container w-80">
-                    <input class="input error-input" type="text" placeholder="Error outlined" />
-                    <input class="input input-standard error-input" type="text" placeholder="Error standard" />
-                    <input class="input input-filled error-input" type="text" placeholder="Error filled" />
-
-                    <input class="input success-input" type="text" placeholder="Success outlined" />
-                    <input class="input input-standard success-input" type="text" placeholder="Success standard" />
-                    <input class="input input-filled success-input" type="text" placeholder="Success filled" />
+                    <ul class="stacked-list">
+                        <li>
+                            <img class="avatar circular-avatar mr-s" src="../../assets/avatars/avatar_03.svg"
+                                alt="avatar 3" />
+                            You have a new follower, <strong> Anni</strong>
+                        </li>
+                        <li>
+                            <img class="avatar circular-avatar mr-s" src="../../assets/avatars/avatar_02.svg"
+                                alt="avatar 2" />
+                            You have a new follower, <strong> Anni</strong>
+                        </li>
+                        <li>
+                            <img class="avatar circular-avatar mr-s" src="../../assets/avatars/avatar_01.svg"
+                                alt="avatar 1" />
+                            You have a new follower, <strong> Anni</strong>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <div class="divider"></div>
 
             <section>
-                <h2>Select dropdown</h2>
+                <h2>Sticky Header List</h2>
                 <div class="container w-80">
-                    <select class="input" type="text" placeholder="outlined">
-                        <option>Aditi</option>
-                        <option>Jenny</option>
-                        <option>Anni</option>
-                    </select>
-                    <select class="input input-standard" type="text" placeholder="outlined">
-                        <option>Aditi</option>
-                        <option>Jenny</option>
-                        <option>Anni</option>
-                    </select>
-                    <select class="input input-filled" type="text" placeholder="outlined">
-                        <option>Aditi</option>
-                        <option>Jenny</option>
-                        <option>Anni</option>
-                    </select>
+                    <ul class="basic-list h-15 vertical-scroll">
+                        <div class="sticky-header">I'm sticky header</div>
+                        <li>List Item 1</li>
+                        <li>List Item 2</li>
+                        <li>List Item 3</li>
+                        <li>List Item 4</li>
+                        <li>List Item 5</li>
+                        <li>List Item 6</li>
+
+                    </ul>
                 </div>
             </section>
             <div class="divider"></div>
 
+            <h2>Interactive Lists</h2>
             <section>
                 <h2>Checkbox</h2>
                 <div class="w-80">
-                    <label class="checkbox-container">I'm a happy person
-                        <input class="checkbox-input" type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="checkbox-container">I'm a sad person
-                        <input class="checkbox-input" type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="checkbox-container">I'm barely a person
-                        <input class="checkbox-input" type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
+                    <ul>
+                        <label class="checkbox-container">I'm a happy person
+                            <input class="checkbox-input" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-container">I'm a sad person
+                            <input class="checkbox-input" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-container">I'm barely a person
+                            <input class="checkbox-input" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </ul>
                 </div>
             </section>
-            <div class="divider"></div>
-
+            <br>
             <section>
                 <h2>Radio Buttons</h2>
                 <div class="w-80">
-                    <input class="radio-input" name="action" type="radio">
-                    <label class="radio-label">I'm a happy person</label>
-                    <input class="radio-input" name="action" type="radio">
-                    <label class="radio-label">I'm a happy person</label>
-                    <input class="radio-input" name="action" type="radio">
-                    <label class="radio-label">I'm a happy person</label>
-
+                    <ul>
+                        <li> <input class="radio-input" name="action" type="radio">
+                            <label class="radio-label">I'm a happy person</label>
+                        </li>
+                        <li><input class="radio-input" name="action" type="radio">
+                            <label class="radio-label">I'm a happy person</label>
+                        </li>
+                        <li><input class="radio-input" name="action" type="radio">
+                            <label class="radio-label">I'm a happy person</label>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>

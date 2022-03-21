@@ -1,0 +1,14 @@
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--background);
+}
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+.round{
+    border-radius: 50%;
+}
