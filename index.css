@@ -2,7 +2,7 @@
 @import url(./components/alert/alert.css);
 @import url(./components/avatar/avatar.css);
 @import url(./components/badge/badge.css);
-
+@import url(./components/card/card.css);
 .highlighted-text {
   color: var(--secondary);
 }
@@ -12,7 +12,25 @@
   background-color: var(--primary);
   opacity: 0.7;
 }
-
+.op-5 {
+  opacity: 0.5;
+}
+/* FONT STYLES*/
+.strike-text {
+  text-decoration: line-through;
+}
+.primary-text {
+  color: var(--primary);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.secondary-text {
+  color: var(--secondary-text);
+}
+.light-text {
+  font-weight: 100;
+  color: var(--light-text);
+}
 /* BACKGROUNDS */
 .bg-primary {
   background-color: var(--primary);
@@ -31,6 +49,20 @@
 }
 .bg-error {
   background-color: var(--error);
+}
+
+/* GRADIENT BACKGROUNDS */
+.info-gradient {
+  background: var(--info-gradient);
+}
+.warning-gradient {
+  background: var(--warning-gradient);
+}
+.error-gradient {
+  background: var(--error-gradient);
+}
+.success-gradient {
+  background: var(--success-gradient);
 }
 
 /* FONTS & FONT SIZES*/
@@ -64,11 +96,23 @@
   position: relative;
 }
 .absolute {
-  position: relative;
+  position: absolute;
 }
 
+.right-xxs {
+  right: 0.1rem;
+}
 .bottom-s {
   bottom: 0.4rem;
+}
+.bottom-m {
+  bottom: 1rem;
+}
+.bottom-l {
+  bottom: 2rem;
+}
+.bottom-xl {
+  bottom: 3rem;
 }
 /* DISPLAYS */
 .flex {
@@ -156,6 +200,9 @@
 
 .ml-auto {
   margin-left: auto;
+}
+.ml-s {
+  margin-left: 0.5rem;
 }
 
 .mt-s {

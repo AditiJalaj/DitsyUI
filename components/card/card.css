@@ -1,0 +1,76 @@
+.card {
+  height: 32rem;
+  position: relative;
+  width: 18rem;
+  background-color: var(--white);
+  margin: 1rem;
+}
+.horizontal-card {
+  height: 18rem;
+  width: 32rem;
+  background-color: var(--white);
+  margin: 1rem;
+}
+.shadow-card {
+  box-shadow: 0.2rem 0.4rem 0.6rem 0.1rem var(--light-text);
+}
+.card-image {
+  height: 25rem;
+  width: 18rem;
+}
+.horizontal-card-image {
+  height: 18rem;
+  width: 16rem;
+}
+.card-badge {
+  background: var(--primary);
+  position: relative;
+  bottom: 75%;
+  opacity: 0.8;
+  display: inline;
+  padding: 0.6rem;
+  font-weight: 600;
+  border-right-style: groove;
+  border-bottom-right-radius: 0.8rem;
+}
+.horizontal-card-detail {
+  position: relative;
+  width: 14rem;
+  bottom: 17rem;
+  left: 17rem;
+}
+.unavailable-ribbon {
+  position: relative;
+  bottom: 3.5rem;
+  text-align: center;
+}
+.dismiss {
+  position: absolute;
+  right: 0.1rem;
+  cursor: pointer;
+}
+.dismiss:hover {
+  background: var(--primary);
+}
+.text-overlay {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-image: var(--info-gradient);
+  position: absolute;
+  bottom: 21%;
+}
+.text-card {
+  height: 7rem;
+  position: relative;
+  width: 18rem;
+  background-color: var(--white);
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.primary-cta {
+  color: black;
+}
+.secondary-cta {
+  color: aquamarine;
+}

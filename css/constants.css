@@ -1,67 +1,26 @@
 :root {
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
-  --font-roman: "Times New Roman", Times, serif;
-  --bg-color: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(45, 29, 82, 1) 100%
-  );
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-roman: 'Times New Roman', Times, serif;
+  --bg-color: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(45, 29, 82, 1) 100%);
   font-size: 10px;
-  --text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+  --text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   --white: #fffaff;
   --primary: #301934;
   --secondary: #eeacd2;
+  --secondary-text: #585858;
+  --light-text: #a8a8a8;
   --success: #08cf80;
   --info: #00c8ce;
   --warning: #fea604;
   --error: #f72b48;
   --background: rgba(44, 39, 78, 1);
-  --success-gradient: linear-gradient(
-    90deg,
-    rgba(8, 207, 128, 1) 0%,
-    rgba(40, 211, 173, 1) 100%
-  );
-  --alert-secondary-success: linear-gradient(
-    90deg,
-    rgba(28, 91, 30, 1) 0%,
-    rgba(44, 39, 78, 1) 37%,
-    rgba(44, 39, 78, 1) 100%
-  );
-  --warning-gradient: linear-gradient(
-    90deg,
-    rgba(252, 202, 1, 1) 0%,
-    rgba(254, 152, 9, 1) 100%
-  );
-  --alert-secondary-warning: linear-gradient(
-    90deg,
-    rgba(91, 70, 28, 1) 0%,
-    rgba(44, 39, 78, 1) 37%,
-    rgba(44, 39, 78, 1) 100%
-  );
-  --error-gradient: linear-gradient(
-    90deg,
-    rgba(255, 48, 59, 1) 0%,
-    rgba(206, 0, 140, 1) 100%
-  );
-  --alert-secondary-error: linear-gradient(
-    90deg,
-    rgba(91, 28, 44, 1) 0%,
-    rgba(44, 39, 78, 1) 37%,
-    rgba(44, 39, 78, 1) 100%
-  );
-  --info-gradient: linear-gradient(
-    90deg,
-    rgba(0, 200, 206, 1) 0%,
-    rgba(0, 141, 235, 1) 100%
-  );
-  --alert-secondary-info: linear-gradient(
-    90deg,
-    rgba(28, 72, 91, 1) 0%,
-    rgba(44, 39, 78, 1) 37%,
-    rgba(44, 39, 78, 1) 100%
-  );
+  --success-gradient: linear-gradient(90deg, rgba(8, 207, 128, 1) 0%, rgba(40, 211, 173, 1) 100%);
+  --alert-secondary-success: linear-gradient(90deg, rgba(28, 91, 30, 1) 0%, rgba(44, 39, 78, 1) 37%, rgba(44, 39, 78, 1) 100%);
+  --warning-gradient: linear-gradient(90deg, rgba(252, 202, 1, 1) 0%, rgba(254, 152, 9, 1) 100%);
+  --alert-secondary-warning: linear-gradient(90deg, rgba(91, 70, 28, 1) 0%, rgba(44, 39, 78, 1) 37%, rgba(44, 39, 78, 1) 100%);
+  --error-gradient: linear-gradient(90deg, rgba(255, 48, 59, 1) 0%, rgba(206, 0, 140, 1) 100%);
+  --alert-secondary-error: linear-gradient(90deg, rgba(91, 28, 44, 1) 0%, rgba(44, 39, 78, 1) 37%, rgba(44, 39, 78, 1) 100%);
+  --info-gradient: linear-gradient(90deg, rgba(0, 200, 206, 1) 0%, rgba(0, 141, 235, 1) 100%);
+  --alert-secondary-info: linear-gradient(90deg, rgba(28, 72, 91, 1) 0%, rgba(44, 39, 78, 1) 37%, rgba(44, 39, 78, 1) 100%);
 }
