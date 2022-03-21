@@ -1,5 +1,6 @@
 @import url(./css/constants.css);
 @import url(./components/alert/alert.css);
+@import url(./components/avatar/avatar.css);
 
 .highlighted-text {
   color: var(--secondary);
@@ -90,7 +91,21 @@
 .jc-space-evenly {
   justify-content: space-evenly;
 }
-
+.al-center {
+  align-items: center;
+}
+.al-flex-start {
+  align-items: flex-start;
+}
+.al-flex-end {
+  align-items: flex-end;
+}
+.al-baseline {
+  align-items: baseline;
+}
+.al-stretch {
+  align-items: stretch;
+}
 /* HEIGHTS,WIDTHS,MARGINS AND PADDINGS */
 .h-8 {
   height: 8rem;
@@ -144,6 +159,19 @@
   margin-bottom: 1rem;
 }
 
+/* padding */
+.pd-s {
+  padding: 0.1rem;
+}
+.pd-m {
+  padding: 0.3rem;
+}
+.pd-l {
+  padding: 0.5rem;
+}
+.pd-xl {
+  padding: 1rem;
+}
 /* import all css component files in here */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -173,7 +201,7 @@ ul {
 
 /* move above to a main css file */
 
-/* NAVBAR STYLES */
+/* nav STYLES */
 .topnav {
   display: flex;
   justify-content: space-between;
