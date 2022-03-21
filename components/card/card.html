@@ -19,14 +19,14 @@
       <div class="sidebar">
         <h3 class="sidebar-heading">GETTING STARTED</h3>
         <ul>
-          <a href="../introduction/introduction.html">
+          <a href="../../get-started/introduction/introduction.html">
             <li class="list-item">Introduction</li>
           </a>
           <a href="../../get-started/colors/colors.html">
             <li class="list-item">Colors</li>
           </a>
           <a href="../../get-started/typography/typography.html">
-            <li class="list-item">Colors</li>
+            <li class="list-item">Typography</li>
           </a>
           <a href="../../get-started/open_source/open_source.html">
             <li class="list-item">Open Source</li>
@@ -43,7 +43,7 @@
           <a href="../badge/badge.html">
             <li class="list-item">Badge</li>
           </a>
-          <a href="../card/card.html">
+          <a href="../button/button.html">
             <li class="list-item">Button</li>
           </a>
           <a href="">
@@ -61,197 +61,133 @@
           <a href="../modal/modal.html">
             <li class="list-item">Modal</li>
           </a>
-          <a href="/">
-            <li class="list-item">Rating</li>
+          <a href="../navigation/navigation.html">
+            <li class="list-item">Navigation</li>
           </a>
         </ul>
       </div>
 
-  <div class="sidebar-and-main-container">
-    <div class="sidebar">
-      <h3 class="sidebar-heading">GETTING STARTED</h3>
-      <ul>
-        <a href="../../get-started/introduction/introduction.html">
-          <li class="list-item">Introduction</li>
-        </a>
-        <a href="../../get-started/colors/colors.html">
-          <li class="list-item">Colors</li>
-        </a>
-        <a href="../../get-started/typography/typography.html">
-          <li class="list-item">Typography</li>
-        </a>
-        <a href="../../get-started/open_source/open_source.html">
-          <li class="list-item">Open Source</li>
-        </a>
-      </ul>
-      <h3 class="sidebar-heading">COMPONENTS</h3>
-      <ul>
-        <a href="../avatar/avatar.html">
-          <li class="list-item">Avatar</li>
-        </a>
-        <a href="../alert/alert.html">
-          <li class="list-item">Alert</li>
-        </a>
-        <a href="../badge/badge.html">
-          <li class="list-item">Badge</li>
-        </a>
-        <a href="../button/button.html">
-          <li class="list-item">Button</li>
-        </a>
-        <a href="">
-          <li class="list-item">Card</li>
-        </a>
-        <a href="../image/image.html">
-          <li class="list-item">Image</li>
-        </a>
-        <a href="../input/input.html">
-          <li class="list-item">Input</li>
-        </a>
-        <a href="../list/list.html">
-          <li class="list-item">List</li>
-        </a>
-        <a href="../modal/modal.html">
-          <li class="list-item">Modal</li>
-        </a>
-        <a href="../navigation/navigation.html">
-          <li class="list-item">Navigation</li>
-        </a>
-      </ul>
+      <main class="main-container">
+        <h1 class="main-heading">Card</h1>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Basic Card</h2>
+          <div class="card">
+            <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
+            <div class="ml-s">
+              <figcaption class="primary-text">Nike</figcaption>
+              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+            </div>
+          </div>
+        </section>
+
+        <div class="divider"></div>
+        <section>
+          <h2>Cards with badge</h2>
+          <div class="flex">
+            <div class="card">
+              <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
+              <figcaption class="card-badge info-gradient">TRENDING</figcaption>
+              <div class="ml-s relative bottom-l">
+                <figcaption class="primary-text">Nike</figcaption>
+                <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+                <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
+              <figcaption class="card-badge error-gradient">FEW LEFT</figcaption>
+              <div class="ml-s relative bottom-l">
+                <figcaption class="primary-text">Nike</figcaption>
+                <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+                <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
+              <figcaption class="card-badge warning-gradient">BESTSELLER</figcaption>
+              <div class="ml-s relative bottom-l">
+                <figcaption class="primary-text">Nike</figcaption>
+                <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+                <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Cards with dismiss</h2>
+          <div class="card">
+            <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
+            <span class="dismiss"><img src="../../assets/card/icons/close_icon.svg" alt="close icon" /></span>
+            <div class="ml-s">
+              <figcaption class="primary-text">Nike</figcaption>
+              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+            </div>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Cards with text overlay</h2>
+          <div class="card">
+            <img class="card-image op-5" src="../../assets/card/card.jpeg" alt="product" />
+            <span class="text-overlay">IN STOCK SOON</span>
+            <div class="ml-s">
+              <figcaption class="primary-text">Nike</figcaption>
+              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+            </div>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Text only cards</h2>
+          <div class="text-card ml-s">
+            <figcaption class="primary-text">Nike</figcaption>
+            <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+            <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Horizontal cards</h2>
+          <div class="horizontal-card">
+            <img class="horizontal-card-image" src="../../assets/card/card.jpeg" alt="product" />
+            <div class="horizontal-card-detail">
+              <figcaption class="primary-text">Nike</figcaption>
+              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+              <figcaption class="primary-text">
+                Rs. 9890
+                <figcaption class="light-text strike-text">Rs 15890</figcaption>
+                <figcaption class="highlighted-text">(30% OFF)</figcaption>
+              </figcaption>
+              <button class="icon-btn card-btn"><img class="btn-icon" src="../../assets/badge/shopping-cart.png" alt="cart icon" />ADD TO CART</button>
+              <button class="icon-btn card-btn"><img class="btn-icon" src="../../assets/card/icons/wishlistt.png" alt="wishlist icon" />WISHLIST</button>
+            </div>
+          </div>
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Cards with shadow</h2>
+          <div class="card shadow-card">
+            <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
+            <div class="ml-s">
+              <figcaption class="primary-text">Nike</figcaption>
+              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
+              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span class="highlighted-text">(30% OFF)</span></figcaption>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-
-    <main class="main-container">
-      <h1 class="main-heading">Card</h1>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Basic Card</h2>
-        <div class="card">
-          <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
-          <div class="ml-s">
-            <figcaption class="primary-text">Nike</figcaption>
-            <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-            <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                class="highlighted-text">(30% OFF)</span></figcaption>
-          </div>
-        </div>
-      </section>
-
-      <div class="divider"></div>
-      <section>
-        <h2>Cards with badge</h2>
-        <div class="flex">
-          <div class="card">
-            <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
-            <figcaption class="card-badge info-gradient">TRENDING</figcaption>
-            <div class="ml-s relative bottom-l">
-              <figcaption class="primary-text">Nike</figcaption>
-              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                  class="highlighted-text">(30% OFF)</span></figcaption>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
-            <figcaption class="card-badge error-gradient">FEW LEFT</figcaption>
-            <div class="ml-s relative bottom-l">
-              <figcaption class="primary-text">Nike</figcaption>
-              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                  class="highlighted-text">(30% OFF)</span></figcaption>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
-            <figcaption class="card-badge warning-gradient">BESTSELLER</figcaption>
-            <div class="ml-s relative bottom-l">
-              <figcaption class="primary-text">Nike</figcaption>
-              <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-              <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                  class="highlighted-text">(30% OFF)</span></figcaption>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Cards with dismiss</h2>
-        <div class="card">
-          <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
-          <span class="dismiss"><img src="../../assets/card/icons/close_icon.svg" alt="close icon" /></span>
-          <div class="ml-s">
-            <figcaption class="primary-text">Nike</figcaption>
-            <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-            <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                class="highlighted-text">(30% OFF)</span></figcaption>
-          </div>
-        </div>
-      </section>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Cards with text overlay</h2>
-        <div class="card">
-          <img class="card-image op-5" src="../../assets/card/card.jpeg" alt="product" />
-          <span class="text-overlay">IN STOCK SOON</span>
-          <div class="ml-s">
-            <figcaption class="primary-text">Nike</figcaption>
-            <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-            <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                class="highlighted-text">(30% OFF)</span></figcaption>
-          </div>
-        </div>
-      </section>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Text only cards</h2>
-        <div class="text-card ml-s">
-          <figcaption class="primary-text">Nike</figcaption>
-          <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-          <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-              class="highlighted-text">(30% OFF)</span></figcaption>
-        </div>
-      </section>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Horizontal cards</h2>
-        <div class="horizontal-card">
-          <img class="horizontal-card-image" src="../../assets/card/card.jpeg" alt="product" />
-          <div class="horizontal-card-detail">
-            <figcaption class="primary-text">Nike</figcaption>
-            <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-            <figcaption class="primary-text">
-              Rs. 9890
-              <figcaption class="light-text strike-text">Rs 15890</figcaption>
-              <figcaption class="highlighted-text">(30% OFF)</figcaption>
-            </figcaption>
-            <button class="icon-btn card-btn"><img class="btn-icon" src="../../assets/badge/shopping-cart.png"
-                alt="cart icon" />ADD TO
-              CART</button>
-            <button class="icon-btn card-btn"><img class="btn-icon" src="../../assets/card/icons/wishlistt.png"
-                alt="wishlist icon" />WISHLIST</button>
-          </div>
-        </div>
-      </section>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Cards with shadow</h2>
-        <div class="card shadow-card">
-          <img class="card-image" src="../../assets/card/card.jpeg" alt="product" />
-          <div class="ml-s">
-            <figcaption class="primary-text">Nike</figcaption>
-            <figcaption class="secondary-text">Women Air Jordans 1</figcaption>
-            <figcaption class="primary-text">Rs. 9890 <span class="light-text strike-text">Rs 15890</span><span
-                class="highlighted-text">(30% OFF)</span></figcaption>
-          </div>
-        </div>
-      </section>
-    </main>
-  </div>
-</body>
-
+  </body>
 </html>
