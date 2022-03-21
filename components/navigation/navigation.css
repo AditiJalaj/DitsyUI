@@ -1,0 +1,31 @@
+.navbar{
+    position:sticky;
+    top: 0;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 1rem;
+    box-shadow:var(--navbar-box-shadow);
+}
+.navbar-logo{
+    padding: 1rem;
+    width: 5rem;
+}
+.navbar-actions{
+    font-weight: bolder;
+    font-size: 1rem;
+    color: var(--primary);
+}
+.navbar-actions span{
+    margin: 0 1rem;
+}
+.navbar-actions:hover{
+    cursor: pointer;
+}
+
+.navbar-user-options{
+
+}

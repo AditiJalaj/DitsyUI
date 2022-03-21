@@ -12,6 +12,7 @@
 .btn-icon {
   height: 1.6rem;
   margin-right: 1rem;
+
 }
 .btn-icon-only {
   height: 2.4rem;
@@ -81,12 +82,13 @@
   background-image: var(--info-gradient);
   padding: 1.2rem 3rem;
   display: flex;
+  box-sizing: border-box;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   border: none;
   font-size: 1.4rem;
-  border-radius: 0.2rem;
+  border-radius: 3rem;
   color: var(--primary);
   cursor: pointer;
   margin: 1rem;
@@ -94,7 +96,6 @@
   font-weight: bolder;
 }
 .icon-btn:hover {
-  color: var(--white);
   background: var(--info);
 }
 .secondary-cta-btn {

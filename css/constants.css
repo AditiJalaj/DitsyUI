@@ -5,12 +5,14 @@
   --bg-color: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(45, 29, 82, 1) 100%);
   font-size: 10px;
   --box-shadow-raised: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  --navbar-box-shadow:  0.4rem 1.2rem 0 rgb(0 0 0 / 5%);
   --text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   --white: #fffaff;
   --secondary-white: #e1dae1;
   --container-bg: rgb(220, 201, 220);
   --primary: #301934;
   --secondary: #eeacd2;
+  --transparent:rgba(189, 172, 172, 0.5);
   --background-secondary: #283543;
   --secondary-text: #585858;
   --light-text: #a8a8a8;
