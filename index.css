@@ -4,6 +4,7 @@
 @import url(./components/badge/badge.css);
 @import url(./components/card/card.css);
 @import url(./components/button/button.css);
+@import url(./components/input/input.css);
 .highlighted-text {
   color: var(--secondary);
 }
@@ -12,6 +13,12 @@
   padding: 0.5rem;
   background-color: var(--primary);
   opacity: 0.7;
+}
+
+.vertical-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .container {

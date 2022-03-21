@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ditsy UI</title>
+    <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../index.css" />
+</head>
+
+<body>
+    <nav class="topnav">
+        <a class="link" href="/"><img class="header-image" src="../../assets/logos/ditsy_logo.png" /></a>
+        <div class="topnav-options"><span>Docs</span><span>Examples</span><span>Releases</span></div>
+    </nav>
+
+    <div class="sidebar-and-main-container">
+        <div class="sidebar">
+            <h3 class="sidebar-heading">GETTING STARTED</h3>
+            <ul>
+                <a href="../introduction/introduction.html">
+                    <li class="list-item">Introduction</li>
+                </a>
+                <a href="../colors/colors.html">
+                    <li class="list-item">Colors</li>
+                </a>
+                <a href="../typography/typography.html">
+                    <li class="list-item">Typography</li>
+                </a>
+                <a href="../open_source/open_source.html">
+                    <li class="list-item">Open Source</li>
+                </a>
+            </ul>
+            <h3 class="sidebar-heading">COMPONENTS</h3>
+            <ul>
+                <a href="../avatar/avatar.html">
+                    <li class="list-item">Avatar</li>
+                </a>
+                <a href="../../components/alert/alert.html">
+                    <li class="list-item">Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li class="list-item">Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li class="list-item">Button</li>
+                </a>
+                <a href="../card/card.html">
+                    <li class="list-item">Card</li>
+                </a>
+                <a href="/">
+                    <li class="list-item">Image</li>
+                </a>
+                <a href="../input/input.html">
+                    <li class="list-item">Input</li>
+                </a>
+                <a href="/">
+                    <li class="list-item">List</li>
+                </a>
+                <a href="/">
+                    <li class="list-item">Toast</li>
+                </a>
+                <a href="/">
+                    <li class="list-item">Rating</li>
+                </a>
+            </ul>
+        </div>
+
+        <main class="main-container">
+            <h1 class="main-heading">Input</h1>
+            <div class="divider"></div>
+
+            <section>
+                <h2>Textbox</h2>
+                <div class="container w-80">
+                    <input class="input" type="text" placeholder="outlined" />
+                    <input class="input input-standard" type="text" placeholder="standard" />
+                    <input class="input input-filled" type="text" placeholder="filled" />
+                    <input class="input input-disabled" type="text" disabled placeholder="disabled" />
+                </div>
+            </section>
+            <div class="divider"></div>
+
+            <section>
+                <h2>Validation</h2>
+                <div class="container w-80">
+                    <input class="input error-input" type="text" placeholder="Error outlined" />
+                    <input class="input input-standard error-input" type="text" placeholder="Error standard" />
+                    <input class="input input-filled error-input" type="text" placeholder="Error filled" />
+
+                    <input class="input success-input" type="text" placeholder="Success outlined" />
+                    <input class="input input-standard success-input" type="text" placeholder="Success standard" />
+                    <input class="input input-filled success-input" type="text" placeholder="Success filled" />
+                </div>
+            </section>
+            <div class="divider"></div>
+
+            <section>
+                <h2>Select dropdown</h2>
+                <div class="container w-80">
+                    <select class="input" type="text" placeholder="outlined">
+                        <option>Aditi</option>
+                        <option>Jenny</option>
+                        <option>Anni</option>
+                    </select>
+                    <select class="input input-standard" type="text" placeholder="outlined">
+                        <option>Aditi</option>
+                        <option>Jenny</option>
+                        <option>Anni</option>
+                    </select>
+                    <select class="input input-filled" type="text" placeholder="outlined">
+                        <option>Aditi</option>
+                        <option>Jenny</option>
+                        <option>Anni</option>
+                    </select>
+                </div>
+            </section>
+            <div class="divider"></div>
+
+            <section>
+                <h2>Checkbox</h2>
+                <div class="w-80">
+                    <label class="checkbox-container">I'm a happy person
+                        <input class="checkbox-input" type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">I'm a sad person
+                        <input class="checkbox-input" type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">I'm barely a person
+                        <input class="checkbox-input" type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </section>
+            <div class="divider"></div>
+
+            <section>
+                <h2>Radio Buttons</h2>
+                <div class="w-80">
+                    <input class="radio-input" name="action" type="radio">
+                    <label class="radio-label">I'm a happy person</label>
+                    <input class="radio-input" name="action" type="radio">
+                    <label class="radio-label">I'm a happy person</label>
+                    <input class="radio-input" name="action" type="radio">
+                    <label class="radio-label">I'm a happy person</label>
+
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

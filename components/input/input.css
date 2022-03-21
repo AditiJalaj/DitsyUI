@@ -1,0 +1,106 @@
+.input {
+  width: 20rem;
+  background: transparent;
+  padding: 1rem;
+  border: 0.1rem solid var(--secondary-text);
+  border-radius: 0.1rem;
+  color: var(--white);
+  margin: 1rem;
+  outline-width: 0;
+}
+.input:hover {
+  border-color: var(--info);
+}
+.input-filled {
+  background: var(--background-secondary);
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-text);
+}
+.input-standard {
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-text);
+}
+.input-disabled {
+  border: none;
+  border-bottom: 0.1rem dotted var(--secondary-text);
+}
+.input-disabled:hover {
+  border-color: var(--secondary-text);
+}
+.error-input {
+  border-color: var(--error);
+}
+.error-input:hover {
+  border-color: var(--error);
+}
+.success-input {
+  border-color: var(--success);
+}
+.success-input:hover {
+  border-color: var(--success);
+}
+
+/* checkbox input */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 3.5rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--white);
+}
+
+.checkbox-input:checked ~ .checkmark {
+  background-color: var(--background);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 0.9rem;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 1rem;
+  border: solid var(--white);
+  border-width: 0 0.3rem 0.3rem 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.radio-input{
+    accent-color:var(--background);
+}
+.radio-label{
+    font-size: 1.4rem;
+}
