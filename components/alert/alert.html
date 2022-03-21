@@ -1,107 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ditsy UI</title>
+    <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ditsy UI</title>
-  <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="../../index.css" />
-</head>
+  <body>
+    <nav class="topnav">
+      <a class="link" href="/"><img class="header-image" src="../../assets/logos/ditsy_logo.png" /></a>
+      <div class="topnav-options"><span>Docs</span><span>Examples</span><span>Releases</span></div>
+    </nav>
 
-<body>
-  <nav class="topnav">
-    <a class="link" href="/"><img class="header-image" src="../../assets/logos/ditsy_logo.png" /></a>
-    <div class="topnav-options"><span>Docs</span><span>Examples</span><span>Releases</span></div>
-  </nav>
+    <div class="sidebar-and-main-container">
+      <div class="sidebar">
+        <h3 class="sidebar-heading">GETTING STARTED</h3>
+        <ul>
+          <a href="../introduction/introduction.html">
+            <li class="list-item">Introduction</li>
+          </a>
+          <a href="../colors/colors.html">
+            <li class="list-item">Colors</li>
+          </a>
+          <a href="../typography/typography.html">
+            <li class="list-item">Typography</li>
+          </a>
+          <a href="../open_source/open_source.html">
+            <li class="list-item">Open Source</li>
+          </a>
+        </ul>
+        <h3 class="sidebar-heading">COMPONENTS</h3>
+        <ul>
+          <a href="../avatar/avatar.html">
+            <li class="list-item">Avatar</li>
+          </a>
+          <a href="./alert.html">
+            <li class="list-item">Alert</li>
+          </a>
+          <a href="../badge/badge.html">
+            <li class="list-item">Badge</li>
+          </a>
+          <a href="/">
+            <li class="list-item">Button</li>
+          </a>
+          <a href="../card/card.html">
+            <li class="list-item">Card</li>
+          </a>
+          <a href="../image/image.html">
+            <li class="list-item">Image</li>
+          </a>
+          <a href="../input/input.html">
+            <li class="list-item">Input</li>
+          </a>
+          <a href="../list/list.html">
+            <li class="list-item">List</li>
+          </a>
+          <a href="../modal/modal.html">
+            <li class="list-item">Modal</li>
+          </a>
+          <a href="/">
+            <li class="list-item">Rating</li>
+          </a>
+        </ul>
+      </div>
 
-  <div class="sidebar-and-main-container">
-    <div class="sidebar">
-      <h3 class="sidebar-heading">GETTING STARTED</h3>
-      <ul>
-        <a href="../introduction/introduction.html">
-          <li class="list-item">Introduction</li>
-        </a>
-        <a href="../colors/colors.html">
-          <li class="list-item">Colors</li>
-        </a>
-        <a href="../typography/typography.html">
-          <li class="list-item">Typography</li>
-        </a>
-        <a href="../open_source/open_source.html">
-          <li class="list-item">Open Source</li>
-        </a>
-      </ul>
-      <h3 class="sidebar-heading">COMPONENTS</h3>
-      <ul>
-        <a href="../avatar/avatar.html">
-          <li class="list-item">Avatar</li>
-        </a>
-        <a href="./alert.html">
-          <li class="list-item">Alert</li>
-        </a>
-        <a href="../badge/badge.html">
-          <li class="list-item">Badge</li>
-        </a>
-        <a href="/">
-          <li class="list-item">Button</li>
-        </a>
-        <a href="../card/card.html">
-          <li class="list-item">Card</li>
-        </a>
-        <a href="../image/image.html">
-          <li class="list-item">Image</li>
-        </a>
-        <a href="../input/input.html">
-          <li class="list-item">Input</li>
-        </a>
-        <a href="../list/list.html">
-          <li class="list-item">List</li>
-        </a>
-        <a href="/">
-          <li class="list-item">Modal</li>
-        </a>
-        <a href="/">
-          <li class="list-item">Rating</li>
-        </a>
-      </ul>
+      <main class="main-container">
+        <h1 class="main-heading">Alert</h1>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Default Alert</h2>
+          <div class="alert success">Success</div>
+          <div class="alert warning">Warning</div>
+          <div class="alert error">Error</div>
+          <div class="alert info">Info</div>
+          <img class="h-15 w-40 br-l mt-s mb-s" src="../../assets/code examples/default_alert.png" />
+        </section>
+        <div class="divider"></div>
+        <section>
+          <h2>Subtle Alert</h2>
+          <div class="alert alert-secondary-success">Success</div>
+          <div class="alert alert-secondary-warning">Warning</div>
+          <div class="alert alert-secondary-error">Error</div>
+          <div class="alert alert-secondary-info">Info</div>
+
+          <img class="h-15 w-40 br-l mt-s mb-s" src="../../assets/code examples/secondary-alert.png" />
+        </section>
+        <div class="divider"></div>
+
+        <section>
+          <h2>Outlined Alert</h2>
+          <div class="alert alert-outlined-success">Success</div>
+          <div class="alert alert-outlined-warning">Warning</div>
+          <div class="alert alert-outlined-error">Error</div>
+          <div class="alert alert-outlined-info">Info</div>
+          <img class="h-15 w-40 br-l mt-s mb-s" src="../../assets/code examples/alert_outline.png" />
+        </section>
+      </main>
     </div>
-
-    <main class="main-container">
-      <h1 class="main-heading">Alert</h1>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Default Alert</h2>
-        <div class="alert success">Success</div>
-        <div class="alert warning">Warning</div>
-        <div class="alert error">Error</div>
-        <div class="alert info">Info</div>
-        <img class="h-15 w-40 br-l mt-s mb-s" src="../../assets/code examples/default_alert.png" />
-      </section>
-      <div class="divider"></div>
-      <section>
-        <h2>Subtle Alert</h2>
-        <div class="alert alert-secondary-success">Success</div>
-        <div class="alert alert-secondary-warning">Warning</div>
-        <div class="alert alert-secondary-error">Error</div>
-        <div class="alert alert-secondary-info">Info</div>
-
-        <img class="h-15 w-40 br-l mt-s mb-s" src="../../assets/code examples/secondary-alert.png" />
-      </section>
-      <div class="divider"></div>
-
-      <section>
-        <h2>Outlined Alert</h2>
-        <div class="alert alert-outlined-success">Success</div>
-        <div class="alert alert-outlined-warning">Warning</div>
-        <div class="alert alert-outlined-error">Error</div>
-        <div class="alert alert-outlined-info">Info</div>
-        <img class="h-15 w-40 br-l mt-s mb-s" src="../../assets/code examples/alert_outline.png" />
-      </section>
-    </main>
-  </div>
-</body>
-
+  </body>
 </html>
