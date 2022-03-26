@@ -188,10 +188,10 @@
 }
 
 /* OVERFLOW */
-.vertical-scroll{
+.vertical-scroll {
   overflow-x: scroll;
 }
-.horizontal-scroll{
+.horizontal-scroll {
   overflow-y: scroll;
 }
 /* HEIGHTS,WIDTHS,MARGINS AND PADDINGS */
@@ -357,8 +357,8 @@ ul {
 .sidebar {
   margin-right: 6rem;
   margin-left: 1rem;
-	position: sticky;
-	top: 0;
+  position: sticky;
+  top: 0;
 }
 .sidebar-heading {
   padding-bottom: 0.5rem;
