@@ -125,14 +125,15 @@
 }
 
 .only-icon-btn {
-  padding: 1.3rem 1.6rem;
+  padding: 0.8rem 1rem 0.5rem 1rem;
   border: none;
   border-radius: 5rem;
   cursor: pointer;
   margin: 1rem;
   transition: all 0.3s ease;
   box-shadow: var(--box-shadow-raised);
+  background: var(--primary-btn);
 }
 .only-icon-btn:hover {
-  background-image: var(--info-gradient);
+  background: var(--primary-btn-light);
 }
