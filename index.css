@@ -9,6 +9,7 @@
 @import url(./components/list/list.css);
 @import url(./components/modal/modal.css);
 @import url(./components/navigation/navigation.css);
+@import url(./components/rating/rating.css);
 
 .highlighted-text {
   color: var(--secondary);
@@ -31,8 +32,12 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: row;
 }
+
+.bg-white {
+  background: var(--white);
+}
+
 .op-5 {
   opacity: 0.5;
 }
