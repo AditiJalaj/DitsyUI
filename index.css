@@ -10,6 +10,7 @@
 @import url(./components/modal/modal.css);
 @import url(./components/navigation/navigation.css);
 @import url(./components/rating/rating.css);
+@import url(./components/slider/slider.css);
 
 .highlighted-text {
   color: var(--secondary);
