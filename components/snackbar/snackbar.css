@@ -1,0 +1,7 @@
+.snackbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background);
+  padding: 0 1rem;
+}
