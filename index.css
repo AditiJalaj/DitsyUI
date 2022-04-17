@@ -10,6 +10,7 @@
 @import url(./components/modal/modal.css);
 @import url(./components/navigation/navigation.css);
 @import url(./components/rating/rating.css);
+@import url(./components/snackbar/snackbar.css);
 
 .highlighted-text {
   color: var(--secondary);
@@ -21,6 +22,12 @@
   opacity: 0.7;
 }
 
+.strong-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  color: var(--white);
+  font-weight: 600;
+}
 .vertical-container {
   display: flex;
   flex-wrap: wrap;
